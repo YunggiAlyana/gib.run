@@ -1,0 +1,11 @@
+{
+  "name": "the-real-gib-run",
+  "version": "1.0.0",
+  "description": "The Authentic Gib Run - Task Runner bukan Database.",
+  "bin": {
+    "gib": "./index.js"
+  },
+  "main": "index.js",
+  "author": "yunggialyana",
+  "license": "ISC"
+}
