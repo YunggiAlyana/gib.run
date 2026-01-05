@@ -1,67 +1,39 @@
-# GIB RUN (The Real Task Runner)
+# GIB RUN (Official CLI)
 
 > "Kembalikan fungsi 'Run' kepada yang berhak mengeksekusi, bukan yang menyimpan data."
 
-[![npm version](https://img.shields.io/badge/npm-v1.0.0-blue)](https://www.npmjs.com/)
-[![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
-[![Status](https://img.shields.io/badge/status-Sangat_Valid-red)]()
+[![npm version](https://img.shields.io/npm/v/gib-run.svg?style=flat-square)](https://www.npmjs.com/package/gib-run)
+[![Downloads](https://img.shields.io/npm/dm/gib-run.svg?style=flat-square)](https://www.npmjs.com/package/gib-run)
+[![License](https://img.shields.io/npm/l/gib-run.svg?style=flat-square)](./LICENSE)
 
-**Gib Run** adalah CLI Wrapper untuk ekosistem JavaScript (Node.js, Bun, PNPM, Yarn) yang dirancang untuk menggantikan `npm`.
+**Gib Run** adalah CLI Task Runner untuk ekosistem JavaScript (Node.js, Bun, PNPM, Yarn).
 
-Project ini dibuat sebagai respons atas "kebingungan" di komunitas yang menamai framework Redis/Go dengan akhiran `.run`. Di sini, kami meluruskan bahwa **Run** adalah kata kerja untuk menjalankan task, bukan menyimpan cache.
+Project ini dirilis untuk meluruskan kerancuan penamaan framework sebelah. Di sini, kami menegaskan bahwa **Run** adalah kata kerja untuk menjalankan script, bukan untuk menyimpan cache (Redis).
 
-## Kenapa Pakai Gib Run?
+## 📦 Instalasi
 
-| Fitur | Gib Run (Ini) | Gib.Run (Sebelah) |
-| :--- | :--- | :--- |
-| **Fungsi Utama** | Menjalankan Script (Task Runner) | Database/Cache (Redis) |
-| **Logika Bahasa** | Valid (`gib run dev`) | Tidak Valid (Redis kok Run?) |
-| **Dukungan** | NPM, Bun, PNPM, Yarn | Golang only |
-| **Fitur Spesial** | Protokol Fufufafa (Pembersih) | Tidak ada |
-
-## Instalasi
-
-Karena ini gerakan bawah tanah, silakan install langsung dari source atau tunggu rilis di NPM.
+Sudah tersedia secara global di NPM Registry. Jangan tertukar dengan barang tiruan.
 
 ```bash
-# Clone repository
-git clone [https://github.com/username-anda/gib-run.git](https://github.com/username-anda/gib-run.git)
-
-# Masuk folder
-cd gib-run
-
-# Install secara global (Link)
-npm link
-Cara Pakai (Usage)
-Cukup ganti npm dengan gib dalam keseharian Anda.
-
-1. Mode Development
-Menjalankan server dev dengan asupan gizi yang cukup.
-
-Bash
-
+npm install -g gib-run
+🚀 Cara PakaiGanti kebiasaan lama npm Anda dengan perintah yang lebih berwibawa.1. Menjalankan ProjectOtomatis mendeteksi package manager (npm, bun, yarn, pnpm) yang Anda gunakan.Bash# Mode Development
 gib run dev
-2. Mode Production
-Menjalankan build production untuk menuju Indonesia Emas.
 
-Bash
-
+# Mode Production
 gib run start
-3. Install Paket
-Membagikan dependencies (bansos) ke dalam folder node_modules.
-
-Bash
-
-gib install axios
+2. Install DependencyMembagikan "bansos" (paket) ke dalam folder node_modules.Bashgib install axios
 # atau
 gib i react
-4. [BAHAYA] Protokol Fufufafa
-Fitur khusus untuk menghapus jejak digital project secara massal. PERINGATAN: Gunakan dengan bijak. Penulis tidak bertanggung jawab atas hilangnya skripsi atau codingan kantor.
+3. [DANGER] Protokol Fufufafa 🕵️‍♂️Fitur pembersihan jejak digital.PERINGATAN: Perintah ini akan MENGHAPUS PERMANEN file di dalam folder (kecuali node_modules & index.js). Gunakan hanya saat keadaan darurat atau untuk konten demo.Bashgib fufufafa
+🆚 Kenapa Gib Run?FiturGib Run (Official)Gib.Run (Sebelah)Fungsi UtamaTask Runner (Sesuai Namanya)Database/Redis (Gak Nyambung)Installnpm i -g gib-runGak ada di NPMLogikaTegak LurusBengkokDisclaimerTools ini dibuat untuk tujuan edukasi dan sedikit satire terhadap penamaan library di komunitas. Penulis tidak bertanggung jawab atas kehilangan data akibat penyalahgunaan fitur fufufafa.Maintained by Yunggi
+---
 
-Bash
+### JANGAN LUPA PUSH KE GITHUB
 
-gib fufufafa
-Disclaimer
-Project ini adalah satire dan bentuk kritik konstruktif terhadap penamaan framework. Tidak ada maksud menjatuhkan, hanya meluruskan syntax.
+Setelah file-nya di-save, jangan lupa "setor" ke GitHub biar berubah tampilannya.
 
-#IMPHNEN #Javascript #GibRun #TheRealOne
+Di terminal:
+```bash
+git add README.md
+git commit -m "Update docs: Official NPM Release link"
+git push origin main
