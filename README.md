@@ -13,27 +13,51 @@ Project ini dirilis untuk meluruskan kerancuan penamaan framework sebelah. Di si
 ## 📦 Instalasi
 
 Sudah tersedia secara global di NPM Registry. Jangan tertukar dengan barang tiruan.
-
 ```bash
 npm install -g gib-run
-🚀 Cara PakaiGanti kebiasaan lama npm Anda dengan perintah yang lebih berwibawa.1. Menjalankan ProjectOtomatis mendeteksi package manager (npm, bun, yarn, pnpm) yang Anda gunakan.Bash# Mode Development
+```
+
+## 🚀 Cara Pakai
+
+Ganti kebiasaan lama npm Anda dengan perintah yang lebih berwibawa.
+
+### 1. Menjalankan Project
+
+Otomatis mendeteksi package manager (npm, bun, yarn, pnpm) yang Anda gunakan.
+```bash
+# Mode Development
 gib run dev
 
 # Mode Production
 gib run start
-2. Install DependencyMembagikan "bansos" (paket) ke dalam folder node_modules.Bashgib install axios
+```
+
+### 2. Install Dependency
+
+Membagikan "bansos" (paket) ke dalam folder `node_modules`.
+```bash
+gib install axios
 # atau
 gib i react
-3. [DANGER] Protokol Fufufafa 🕵️‍♂️Fitur pembersihan jejak digital.PERINGATAN: Perintah ini akan MENGHAPUS PERMANEN file di dalam folder (kecuali node_modules & index.js). Gunakan hanya saat keadaan darurat atau untuk konten demo.Bashgib fufufafa
-🆚 Kenapa Gib Run?FiturGib Run (Official)Gib.Run (Sebelah)Fungsi UtamaTask Runner (Sesuai Namanya)Database/Redis (Gak Nyambung)Installnpm i -g gib-runGak ada di NPMLogikaTegak LurusBengkokDisclaimerTools ini dibuat untuk tujuan edukasi dan sedikit satire terhadap penamaan library di komunitas. Penulis tidak bertanggung jawab atas kehilangan data akibat penyalahgunaan fitur fufufafa.Maintained by Yunggi
----
+```
 
-### JANGAN LUPA PUSH KE GITHUB
+### 3. [DANGER] Protokol Fufufafa 🕵️‍♂️
 
-Setelah file-nya di-save, jangan lupa "setor" ke GitHub biar berubah tampilannya.
+Fitur pembersihan jejak digital.
 
-Di terminal:
+**PERINGATAN:** Perintah ini akan **MENGHAPUS PERMANEN** file di dalam folder (kecuali `node_modules` & `index.js`). Gunakan hanya saat keadaan darurat atau untuk konten demo.
 ```bash
-git add README.md
-git commit -m "Update docs: Official NPM Release link"
-git push origin main
+gib fufufafa
+```
+
+## 🆚 Kenapa Gib Run?
+
+| Fitur | Gib Run (Official) | Gib.Run (Sebelah) |
+|-------|-------------------|-------------------|
+| Fungsi Utama | Task Runner (Sesuai Namanya) | Database/Redis (Gak Nyambung) |
+| Install | `npm i -g gib-run` | Gak ada di NPM |
+| Logika | Tegak Lurus | Bengkok |
+
+## ⚠️ Disclaimer
+
+Tools ini dibuat untuk tujuan edukasi dan sedikit satire terhadap penamaan library di komunitas. Penulis tidak bertanggung jawab atas kehilangan data akibat penyalahgunaan fitur `fufufafa`.
